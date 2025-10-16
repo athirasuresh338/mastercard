@@ -50,6 +50,10 @@ img {
     object-position: top left;
 }
 
+html {
+    font-size: 21px;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'MarkForMC';
