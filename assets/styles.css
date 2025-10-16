@@ -1,7 +1,7 @@
 /* MarkForMC Bold */
 @font-face {
   font-family: 'MarkForMC';
-  src: url('/assets/fonts/MarkForMC-Bold.woff2') format('woff2');
+  src: url('fonts/MarkForMC-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 /* MarkForMC Extra Light */
 @font-face {
   font-family: 'MarkForMC';
-  src: url('/assets/fonts/MarkForMC-ExtraLt.woff2') format('woff2');
+  src: url('fonts/MarkForMC-ExtraLt.woff2') format('woff2');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 /* MarkForMC Light */
 @font-face {
   font-family: 'MarkForMC';
-  src: url('/assets/fonts/MarkForMC-Lt.woff2') format('woff2');
+  src: url('fonts/MarkForMC-Lt.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -28,7 +28,7 @@
 /* MarkForMC Narrow */
 @font-face {
   font-family: 'MarkForMC Narrow';
-  src: url('/assets/fonts/MarkForMCNrw.woff2') format('woff2');
+  src: url('fonts/MarkForMCNrw.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
