@@ -1,0 +1,81 @@
+.business-section {
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    /* justify-content: space-between; */
+}
+
+.business-image {
+    width: 90%;
+}
+
+.split-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+
+.in-cont * {
+    margin: 10px 0px;
+}
+
+.in-cont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 90%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+.button {
+    color: red;
+    border: 0.15em solid red;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 5px 20px;
+    font-size: 0.7rem;
+    /* transition: 0.3s transform ease, 0.3s box-shadow ease; */
+}
+
+.button:hover {
+    transition: 0.3s transform ease;
+    /* box-shadow: 0 2px 1px 0 rgba(255, 0, 0, 0.3);
+    transform: translateY(-2px); */
+}
+
+.dots {
+    display: flex;
+    gap: 2px;
+    /* align-items: center; */
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    /* margin: 2px; */
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.white:hover {
+    background-color: black;
+}

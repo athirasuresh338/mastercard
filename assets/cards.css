@@ -1,0 +1,27 @@
+#cards-section {
+    height: 100vh;
+    background-image: url("https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/mastercard-cards-1300x650.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.content {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+}
+
+
+.content .button {
+    color: white;
+    border: 0.15em solid white;
+}
+
+.button:hover {
+    box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}

@@ -1,0 +1,115 @@
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    gap: 25px;
+    font-size: 0.7rem;
+}
+
+.footer-cont {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;                
+}
+
+.logo-cont {
+    height: 25px;
+}
+
+.logo-cont img {
+    object-fit: contain;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.links {
+    display: flex;
+    gap: 80px;
+}
+
+.links p {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.company, .sites {
+    display: flex;
+    flex-direction: column;
+}
+
+.support {
+    width: 200px; 
+}
+
+.support h3 {
+    font-size: 0.9rem;
+    font-weight: 400;   
+}
+
+.support-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.support-item p, .support-item i {
+    font-size: 0.7rem;
+    color: darkgray;
+}
+
+.support-item p:hover, footer ul li:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer, .misc, .lang, .social {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.misc {
+    display: flex;
+    flex-direction: row;
+}
+
+.lang {
+    gap: 4px;
+}
+
+.lang:hover {
+    text-decoration: underline;
+}
+
+.social {
+    gap: 10px;
+}
+
+.soc-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+    transition: 0.3s transform ease;
+}
+
+.soc-icon:hover {
+    color: gray;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+

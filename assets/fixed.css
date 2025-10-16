@@ -1,0 +1,37 @@
+.play-sound {
+    position: fixed;
+    display: flex;
+    top: 70px;
+    gap: 2px;
+    right: 5px;
+}
+
+.play, .sound {
+    border-radius: 50%;
+    background-color: #55555599;
+    padding: 0.01em 0.2em 0.2em 0.2em;
+}
+
+.play-sound i {
+    font-size: 0.5rem;
+    border: 0.2em solid white;
+    padding: 0.2rem 0.8rem 0.2rem 0.25rem;
+    border-radius: 50%;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    padding: 10px 16px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    border: 0.1em solid black;
+    border-radius: 3px;
+}
+
+.cookies:hover {
+    background-color: orangered;
+    color: white;
+}

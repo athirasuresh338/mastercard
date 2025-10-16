@@ -1,0 +1,50 @@
+.video-back {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-bottom: 0;
+}
+
+.video-back video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero-section {
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.section-content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    margin: 0;
+    font-size: 0.6rem;
+    font-family: 'MarkForMC Narrow';
+}
+
+.header {
+    margin: 0;
+    width: 500px;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,38 @@
+#commit-section {
+    height: 100vh;
+    background-image: url("https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/homepage/Home/homepage_banner2_1300x650.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    color: black;
+}
+#commit-section * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.content a:hover {
+    text-decoration: underline;
+    color: olive;
+}
+
+.content a i {
+    color: olive;
+    padding: 0.3rem;
+}

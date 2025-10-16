@@ -1,0 +1,50 @@
+#related-section {
+    background-color: white;
+}
+
+.rel-cont {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+}
+
+.related-stuff {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 0px 10px;
+}
+
+.card-cont * {
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.card-cont p small {
+    font-size: 0.7rem;
+}
+
+.card-cont i{
+    padding: 0 0.4rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.card-cont a {
+    font-size: 0.8rem;
+}
+
+.card-cont a:hover {
+    color: red;
+    text-decoration: underline;
+}
